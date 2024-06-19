@@ -85,8 +85,8 @@
 				<NavLink href="/about" text="About" />
 				<NavLink href="/blog" text="Blog" />
 				<NavLink href="/resume" text="Resume" />
-				<NavLink href="/services" text="Services" />
-				<NavLink href="/contact" text="Contact" />
+				<!-- <NavLink href="/services" text="Services" /> -->
+				<!-- <NavLink href="/contact" text="Contact" /> -->
 			</ul>
 		</div>
 	</div>

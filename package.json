@@ -1,6 +1,10 @@
 {
 	"name": "kyleculpcom",
 	"version": "0.0.1",
+	"engines": {
+		"node": ">=18.18.0 || ^20.9.0 || >=21.1.0"
+	},
+	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -49,7 +53,6 @@
 		"vitest": "^1.2.0",
 		"wrangler": "^3.60.2"
 	},
-	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
 		"@threlte/core": "^7.3.0",

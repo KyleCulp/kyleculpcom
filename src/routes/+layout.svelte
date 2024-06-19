@@ -2,23 +2,22 @@
 	import '../app.css';
 	import Header from '$components/Header.svelte';
 	import './styles.css';
+	// On page load or when changing themes, best to add inline in `head` to avoid FOUC
 </script>
 
-<div class="relative px-8">
+<div class="relative">
 	<Header></Header>
-</div>
-<div class="app">
-	<main>
+	<main class="w-full">
 		<slot></slot>
 	</main>
 </div>
 
 <style>
-	.app {
+	main {
 		margin-top: 70px;
 	}
 	@media (max-width: 768px) {
-		.app {
+		main {
 			margin-top: 60px;
 		}
 	}

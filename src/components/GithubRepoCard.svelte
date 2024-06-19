@@ -7,7 +7,7 @@
 	if (repo.language in GithubColors) color = GithubColors[repo.language];
 </script>
 
-<div class="w-full p-4 md:w-1/2">
+<div class="w-full p-4 md:w-1/3">
 	<div
 		class="h-full overflow-hidden rounded-lg border-2 border-gray-200 border-opacity-60 dark:border-gray-700"
 	>
@@ -35,7 +35,9 @@
 			<div class="flex flex-wrap items-center">
 				<div class="mt-2 flex items-center">
 					<span class="mr-2 h-3 w-3 rounded-full" style="background-color: {color};"></span>
-					<span class="text-sm text-gray-400">{repo.language}</span>
+					{#if repo.language}
+						<span class="text-sm text-gray-400">{repo.language}</span>
+					{/if}
 				</div>
 				<span
 					class="ml-auto mr-3 inline-flex items-center border-r-2 border-gray-200 py-1 pr-3 text-sm leading-none text-gray-400 dark:border-gray-700"

@@ -8,8 +8,6 @@
 	<meta name="description" content="Kyle Culp's Resume" />
 </svelte:head>
 <div class="flex flex-col items-center justify-center">
-	<a href="https://discord.com/users/kyledculp" target="_blank">My Discord Profile</a>
-
 	<a href={pdfUrl} target="_blank" class="mx-auto mb-3 mt-3">
 		<button
 			type="button"

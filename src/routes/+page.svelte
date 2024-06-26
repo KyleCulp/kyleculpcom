@@ -11,6 +11,10 @@
 <svelte:head>
 	<title>Kyle Culp</title>
 	<meta name="description" content="Svelte demo app" />
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+	/>
 </svelte:head>
 
 <section class="bg-white dark:bg-githubGray-dark">

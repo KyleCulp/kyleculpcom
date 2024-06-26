@@ -64,9 +64,9 @@
 				class="mt-1.5 flex flex-row justify-around rounded-lg border border-gray-100 p-2 font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 rtl:space-x-reverse"
 			>
 				<NavLink href="/resume" text="Resume" />
-				<NavLink href="/projects" text="Projects" />
+				<!-- <NavLink href="/projects" text="Projects" />
 				<NavLink href="/about" text="About" />
-				<NavLink href="/blog" text="Blog" />
+				<NavLink href="/blog" text="Blog" /> -->
 			</ul>
 		</div>
 	</div>

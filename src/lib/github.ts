@@ -6,8 +6,9 @@ const GITHUB_OWNER = 'KyleCulp';
 const GITHUB_REPOS = [
   'kyleculpcom',
   'homelab',
-  'noteflow-frontend',
-  'noteflow-backend',
+  'my_app',
+  // 'noteflow-frontend',
+  // 'noteflow-backend',
   'ex_pve',
   'ex_pbs',
   'ex_pmg',

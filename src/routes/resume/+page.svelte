@@ -8,10 +8,12 @@
 	<meta name="description" content="Kyle Culp's Resume" />
 </svelte:head>
 <div class="flex flex-col items-center justify-center">
-	<a href={pdfUrl} target="_blank" class="mx-auto">
+	<a href="https://discord.com/users/kyledculp" target="_blank">My Discord Profile</a>
+
+	<a href={pdfUrl} target="_blank" class="mx-auto mb-3 mt-3">
 		<button
 			type="button"
-			class="me-2 mt-4 rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+			class="rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
 			>View Resume PDF</button
 		>
 	</a>
